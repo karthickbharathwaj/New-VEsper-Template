@@ -1503,7 +1503,13 @@ section {
   margin-top: 5px;
   text-align: center;
 }
-
+#port{
+  width: 100%;
+  padding-right: 31px;
+  padding-left: 31px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .portfolio-details .portfolio-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 5px;
@@ -1541,11 +1547,38 @@ section {
   font-size: 15px;
   padding: 15px 0 0 0;
 }
+.portfolio-details.content ul i{
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #3498db;
+  line-height: 1;
+}
 
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
+}
+/*--------------------------------------------------------------
+# Innovation page
+--------------------------------------------------------------*/
+#innovbtn .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+}
+#innovbtn .btn-get-started:hover {
+  background: #3498db;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
