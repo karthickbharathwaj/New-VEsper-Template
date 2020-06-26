@@ -1528,13 +1528,13 @@ section {
 }
 
 .portfolio-details .portfolio-info {
-  padding-top: 45px;
+  padding-top: 10px;
 }
 
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 400;
-  margin-bottom: 20px;
+  
 }
 
 .portfolio-details .portfolio-info ul {
@@ -1584,7 +1584,9 @@ section {
   background: #f67c92;
   color: #fff;
 }
-
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
