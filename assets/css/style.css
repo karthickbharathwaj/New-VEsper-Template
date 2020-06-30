@@ -1585,7 +1585,7 @@ section {
   color: #fff;
 }
 .featurette-divider {
-  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
 }
 /*--------------------------------------------------------------
 # Footer
