@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
+  height: 50px;
   z-index: 997;
   transition: all 0.5s;
 }
@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+/* #hero {
   width: 100%;
   height: 70vh;
   margin-top: 70px;
@@ -464,8 +464,77 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: translateY(-10px);
   }
+} */
+#hero {
+  width: 100%;
+  height: 80vh;
+  background: url("/assets/lake-stage-5327879_1920.jpg") center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin-bottom: -120px;
 }
 
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .container {
+  z-index: 2;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 56px;
+  color: rgb(224, 221, 221);
+}
+
+#hero h2 {
+  color: #f3f3f3;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+#hero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #f67c92;
+  border: 2px solid #f67c92;
+}
+
+#hero .btn-get-started:hover {
+  background: #f67c92;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  #hero {
+    margin-top: 20px;
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
